@@ -48,7 +48,8 @@
     - Demonstration: show an example of ARMA that works and an example where seasonality makes it not work.
     - ARMA assumes the time series is *stationary*. "Stationary" means there is no *seasonality* (recurring pattern) in the data. In the second example there was seasonality, which is why it didn't work.
 
-- 
+- DOEN: hoe haal je seasonality weg?
+- DAn: demo Raoul laten zien
 
 
 ## Block 2 (50 min)
