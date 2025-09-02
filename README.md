@@ -1,0 +1,1 @@
+This is material for a MADS Data Exploration class on Time series
