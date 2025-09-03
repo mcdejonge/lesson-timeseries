@@ -1,0 +1,17 @@
+Columns:
+
+- timestamp: timestamp
+- E_apparaten: energy use of other devices in kWh
+- E_warmtepomp: energy use of heatpump in kWh
+- E_verbruik: total energy use in kWh
+- Overschot: energy returned to grid
+- hp_AAN: heatpump on or off
+- diff_temp_woonk: temperature living room
+- diff_temp_slaapk: temperature bedroom
+- Tussendeur: inside door open / closed
+- Buitendeur: outside door open / closed
+- Raam: window open / closed
+- Dag: weekday
+- day_of_week: weekday (same as "Dag")
+- month: month
+- year: year
