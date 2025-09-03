@@ -48,7 +48,7 @@
 
 - Demo 2: manual ARMA
 - Demo 3: manual ARMA, does not work
-    - The reason demo 3 does not work is because ARMA assumes the time series is *stationary*. "Stationary" means there is no *seasonality* (recurring pattern) in the data.
+    - The reason demo 3 does not work is because ARMA assumes the time series is *stationary*. "Stationary" means there is no *seasonality* (recurring patterns) in the data.
 
 - Demo 4: reducing seasonality using differencing
   - Differencing does not completely undo the effects of seasonality, but it does reduce its effects.
