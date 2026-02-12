@@ -78,7 +78,10 @@
       - They show anomalies / oddities.
   - Demo 6: Using statsmodels.tsa to decompose a time series
 - Trend and seasonality analysis using autocorrelation function plots is not foolproof, however. An infamous example is the sunspots data set.
-- Demo 7: Using statsmodels.tsa to analyse and decompose sunspot data
+- Demo 7: Using statsmodels.tsa to analyse and decompose sunspot dat  a
+  - Note the performance of the simple function (the 11 year sinus cycle)  is certainly no worse than that of the TS analysis
+  - Note the explanatory power of the simple function (the 11 year sinus cycle) is much greater.
+
 
 ## Block 3 (50 min)
 
