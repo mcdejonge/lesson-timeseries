@@ -42,6 +42,8 @@
 - Slightly less naive forecasting: ARMA
   - Apply some function to all previous observations or to a subset of previous observations (only the last 10 observations, for example): $y_t = f(y_1, ..., y_{t-1}) + \epsilon_t$ ($\epsilon$ is some error). The forecast value is $\hat{y}_{t+1} = f(y1, ..., yt)$.
   - This technique is called **ARMA**: **a**uto**r**egressive **m**oving **a**verage:
+    - **Autoregressive**: looking back at itself.
+    - **Moving average**: calculate an average of all previous values *that updates as we add more values*.
     - AR: $Yt = \beta_1 y_{t - 1} + \beta_2 y_{t - 2} ... + \beta_k y_{t -k}$
     - MA: $Yt = \alpha_1 \epsilon_{t-1} + \alpha_2 \epsilon_{t-2} ... + \alpha_k \epsilon_{t-k}$ : this is the sum of the residuals / errors for each observation done at time $t - k$ (the difference between the observed value and the predicted value).
     - ARMA combines the two, by summing them: $Yt = \beta_1 y_{t - 1} + \alpha_1 \epsilon_{t-1} + \beta_2 y_{t - 2} + \alpha_1 \epsilon_{t-2}... + \beta_k y_{t -k} + \alpha_k \epsilon_{t-k}$ 
